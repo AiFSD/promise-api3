@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codeforces Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="bg-primary text-white text-center p-3">
+      <i class="fas fa-trophy" style="font-size: 24px"></i>
+      <h1>Codeforces Dashboard</h1>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#" id="contests-tab">Contests</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" id="problems-tab">Problems</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" id="user-tab">User Info</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container mt-4">
+      <div id="contests-content" class="d-none">
+        <h2>Contests</h2>
+        <div class="row" id="contests-list"></div>
+      </div>
+
+      <div id="problems-content" class="d-none">
+        <h2>Problems</h2>
+        <div class="row" id="problems-list"></div>
+      </div>
+
+      <div id="user-content" class="d-none">
+        <h2>User Information</h2>
+        <div id="user-info"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

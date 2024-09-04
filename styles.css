@@ -1,0 +1,42 @@
+
+
+.navbar {
+    padding: 1rem;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar-nav {
+    margin-left: auto;
+  
+    margin-right: auto;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-link:hover {
+    background-color: yellow;
+   
+    color: #0056b3;
+
+}
+
+.nav-link:active {
+    background-color: yellow;
+    color: #0056b3;
+    
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .nav-item {
+        margin-right: 10px;
+       
+    }
+}
